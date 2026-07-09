@@ -1,0 +1,18 @@
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-parent div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+}
+.common-btn{
+    
+}
+
+.nav-parent div ul a{
+    text-decoration: none;
+}
