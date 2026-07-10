@@ -123,4 +123,16 @@ section h2{
 .meet-card-content .p1-tag{
     color: #2563EB;
     font-size: 12px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.meet-card-content h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2-tag{
+    color: #575757;
+    font-size: 14px;
+    margin-top: 12px;
 }
