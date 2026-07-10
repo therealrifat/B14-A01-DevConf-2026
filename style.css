@@ -140,17 +140,30 @@ section{
 
 
 /* secure part */
+.secure-card{
+    border: 1px solid #e4e4e4;
+    padding: 32px;
+    border-radius: 20px;
+   
+   
+}
 .secure-common-btn{
-    padding: 12px 75px;
+    padding: 15px 120px;
+    font-size: 15px;
+    font-weight: 700;
     border: 2px  solid #2563EB;;
     border-radius: 10px;
     color: #1D4ED8;
+    /* margin-left: 20px; */
     background-color: #fff;
+    
 }
 .secure-common-btn2{
     background-color: #2563EB;
-    padding: 15px 95px;
+    padding: 15px 130px;
+    /* margin-left: 42px; */
     border: none;
+   
     border-radius: 10px;
     color: #fff;
 }
@@ -166,6 +179,15 @@ section{
     color: #575757;
 }
 
+/* .price-card{
+    width: 1100px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+    
+} */
 .price-card{
     margin-top: 50px;
     display: flex;
@@ -174,17 +196,60 @@ section{
     
 }
 
-.secure-card{
-    border: 1px solid #e4e4e4;
-    padding: 32px;
-    border-radius: 8px;
-   
-}
 .pro-card{
     background-color: #0D1B2A;
     color: #fff;
     font-weight: 300;
 }
 .secure-card ul li::marker{
-    color: #1D4ED8;
+    color: #60A5FA;
+}
+.secure-card-p1{
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.secure-card-p1-pro{
+    font-size: 13px;
+    color: #93C5FD;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.secure-card span{
+    font-weight: 700;
+    font-size: 44px;
+    padding-bottom: 10px;
+    
+}
+
+.secure-card-p2{
+    font-size: 13px;
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.secure-card hr{
+    border: 1px solid #e0e0e0;
+    
+    
+    
+}
+.pro-card hr{
+    border: 1px solid #4a2121;
+    
+}
+.secure-card ul{
+    display: grid;
+    color: #333;
+    font-size: 14px;
+    margin: 15px 0px;
+    gap: 10px;
+    padding: 0px 15px;
+}
+ .pro-card ul{
+    color: #fddede;
+    
 }
