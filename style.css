@@ -1,18 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
 .nav-parent{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 12px 8%;
+    
 }
 
 .nav-parent div ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap:20px
+    gap:20px;
 }
 .common-btn{
+    padding: 12px 25px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
     
 }
 
 .nav-parent div ul a{
     text-decoration: none;
+    color: #575757;
 }
