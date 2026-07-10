@@ -64,6 +64,7 @@ header{
 header div h1{
     color: #fff;
     font-size: 80px;
+    font-weight: bold;
     margin-top: 130px;
 }
 
@@ -80,4 +81,46 @@ header div p{
         font-size: 22px;
         padding: 18px 45px;
         border-radius: 12px;
+}
+
+/* speaker section */
+section{
+    margin:  auto 8%;
+}
+section h2{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 56px;
+    margin: 60px auto;
+}
+
+.spekers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    
+}
+
+.spekers-container img{
+    width: 100%;
+    /* height: 250px; */
+
+}
+.meet-card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.meet-card{
+    border: 1px solid #e4e4e4;
+    border-radius:16px;
+}
+
+.meet-card-content{
+    
+    padding: 30px;
+}
+
+.meet-card-content .p1-tag{
+    color: #2563EB;
+    font-size: 12px;
 }
