@@ -86,11 +86,12 @@ header div p{
 /* speaker section */
 section{
     margin:  auto 8%;
+    padding: 50px 0px;
 }
-section h2{
+.spekers-h2{
     font-family: "Inter", sans-serif;
     text-align: center;
-    font-size: 56px;
+    font-size: 55px;
     margin: 60px auto;
 }
 
@@ -135,4 +136,55 @@ section h2{
     color: #575757;
     font-size: 14px;
     margin-top: 12px;
+}
+
+
+/* secure part */
+.secure-common-btn{
+    padding: 12px 75px;
+    border: 2px  solid #2563EB;;
+    border-radius: 10px;
+    color: #1D4ED8;
+    background-color: #fff;
+}
+.secure-common-btn2{
+    background-color: #2563EB;
+    padding: 15px 95px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.secure-h2{
+    margin-top: 0px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+}
+.ptag{
+    text-align: center;
+    margin: 20px  auto;
+    color: #575757;
+}
+
+.price-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.secure-card{
+    border: 1px solid #e4e4e4;
+    padding: 32px;
+    border-radius: 8px;
+   
+}
+.pro-card{
+    background-color: #0D1B2A;
+    color: #fff;
+    font-weight: 300;
+}
+.secure-card ul li::marker{
+    color: #1D4ED8;
 }
