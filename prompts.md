@@ -1,0 +1,1 @@
+promt: dev conference  2026 theme landing page I have done the navbar, banner, speaker, prize and "your task "  footer  section. this landing page of primary color white, blue, and black  make relevant section as a web engineer   e.g. Sponsors, Venue, FAQ, Newsletter Signup,  tech stack only html and css code  don't use JavaScript relevant  section  give me code html and css code
