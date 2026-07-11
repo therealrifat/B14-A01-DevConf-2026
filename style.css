@@ -272,7 +272,7 @@ section{
     --clr-dark-gray: #1e293b;
     --clr-text-muted: #64748b;
     --clr-border: #e2e8f0;
-    --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 'Inter','Segoe UI',  sans-serif;
 }
 
 /* Global Reusable Layout Classes */
@@ -518,6 +518,9 @@ section{
    
 
 /* footer section css  */
+
+
+
 footer{
     background-color: #0D1B2A;
     padding: 20px 8%;
@@ -572,3 +575,5 @@ footer hr{
 .social-link  a { 
     color: #fff;
 }
+
+/* this is the end  */
